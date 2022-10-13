@@ -1,0 +1,100 @@
+RewriteEngine on  
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^Home?$ home.php
+RewriteRule ^Dashboard?$ admin_dashboard.php
+RewriteRule ^Profile?$ profile.php
+RewriteRule ^Change-Password?$ change.php
+RewriteRule ^Login?$ ...Userlogin.php
+RewriteRule ^Question?$ add-question.php
+RewriteRule ^Question-Staff?$ add-question-staff.php
+RewriteRule ^Add-Question-Staff?$ add-question-staff1.php
+RewriteRule ^Add-Question?$ add-question1.php
+RewriteRule ^Add-Sub-Objective?$ add-question2.php
+RewriteRule ^Add-Course-Success?$ add-course1.php
+RewriteRule ^Add-Department-Success?$ add-depart1.php
+RewriteRule ^Add-Course?$ add-course.php
+RewriteRule ^Add-Department?$ add-depart.php
+RewriteRule ^View-Question?$ view-question.php
+RewriteRule ^View-Course?$ view-course.php
+RewriteRule ^View-Department?$ view-depart.php
+RewriteRule ^View-Time?$ view-time.php
+RewriteRule ^View-Question-Staff?$ view-question-staff.php
+RewriteRule ^View-Student?$ view-student.php
+RewriteRule ^View-Student-Staff?$ view-student-staff.php
+RewriteRule ^View-Student-Single?$ view-student-single.php
+RewriteRule ^View-Staff?$ view-staff.php
+RewriteRule ^Pin-Student?$ pin-student.php
+RewriteRule ^Pin-Course-Success?$ pin-course-success.php
+RewriteRule ^Pin-Question-Success?$ pin-question-success.php
+RewriteRule ^Pin-Student-Success?$ pin-student-success.php
+RewriteRule ^Pin-Question?$ pin-question.php
+RewriteRule ^Pin-Course?$ pin-course.php
+RewriteRule ^Email?$ email.php
+RewriteRule ^Email-Staff?$ email-staff.php
+RewriteRule ^SMS?$ sms.php
+RewriteRule ^View-Result?$ view-result.php
+RewriteRule ^View-Result-Staff?$ view-result-staff.php
+RewriteRule ^View-Result-Single?$ view-result-single.php
+RewriteRule ^Print-Result?$ print-result-single.php
+RewriteRule ^Print-Result-Sfaff?$ print-result-single-staff.php
+RewriteRule ^Print-Result-Single?$ print-result-success.php
+RewriteRule ^Print-Result-Single-Staff?$ print-result-success-staff.php
+RewriteRule ^View-Parformance?$ parformance.php
+RewriteRule ^View-Parformance-Staff?$ parformance-staff.php
+RewriteRule ^Add-Staff?$ add-staff.php
+RewriteRule ^Register-Staff?$ register-staff.php
+RewriteRule ^Edit-Profile?$ ...edit_profile.php
+RewriteRule ^Dashboard-Admin?$ ..Admin.php
+RewriteRule ^Dashboard-Student?$ dashboard.php
+RewriteRule ^Dashboard-Staff?$ staff-dashboard.php
+RewriteRule ^Logout?$ logout1.php
+RewriteRule ^Logout-Staff?$ logout2.php
+RewriteRule ^exam-schedule?$ Examschedule.php
+RewriteRule ^eligibility-criteria?$ Eligibility_Criteria.php 
+RewriteRule ^Result?$ CheckResult.php
+RewriteRule ^Login-Admin?$ admin-login.php
+RewriteRule ^Start?$ start.php
+RewriteRule ^Examination?$ exam.php
+RewriteRule ^Edit-Question?$ edit-question.php
+RewriteRule ^Edit-Course?$ edit-course.php
+RewriteRule ^Edit-depart?$ edit-depart.php
+RewriteRule ^Edit-Question-Success?$ edit1.php
+RewriteRule ^Edit-Course-Success?$ edit3.php
+RewriteRule ^Edit-Staff-Success?$ edit2.php
+RewriteRule ^Success?$ result1.php
+RewriteRule ^Logout-Student?$ logout.php
+RewriteRule ^Forgot-Student?$ ..forget.php
+RewriteRule ^UserProfile?$ UserProfileEdit.php
+RewriteRule ^Select_Query?$ select_query.php
+RewriteRule ^Edit-Staff?$ edit-staff.php
+RewriteRule ^IT-Student?$ itstudents_view.php
+RewriteRule ^Login-Staff?$ staff-login.php
+RewriteRule ^Login-Student?$ login.php
+RewriteRule ^General-Test-Quest?$ GeneralTestQuest.php
+RewriteRule ^Assignment-Score?$ AssignmentScore_view.php
+RewriteRule ^General-Test-Score?$ GeneralTestScore.php
+RewriteRule ^Submit-Assign-View?$ SubmitAssign_view.php
+RewriteRule ^Post-Handout?$ PostHandout.php
+RewriteRule ^Post-Quest?$ PostQuest.php
+RewriteRule ^Text-Result-View?$ Textresult_view.php
+RewriteRule ^Admin-Library?$ Admin-Library.php
+RewriteRule ^Send-Mail?$ SendMail.php
+RewriteRule ^Send-SMS?$ Send_SMS.php
+RewriteRule ^Authors?$ authors.php
+RewriteRule ^Category?$ category.php
+RewriteRule ^Post-Project?$ post-Project.php
+
+RewriteRule ^Categories?$ ..categories.php
+
+RewriteRule ^PrintAssign?$ PrintAssignment.php
+
+
+
+
+
+
+
+
